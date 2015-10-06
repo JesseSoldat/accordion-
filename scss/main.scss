@@ -1,0 +1,30 @@
+div {
+    width: 600px;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+h2 {
+    padding: 25px;
+    background-color: pink;
+    color: white; 
+    margin: 0; 
+
+}
+h2:hover {
+    background-color: red;
+}
+p {
+    transition: all 1s;
+    height: 80px;
+    padding: 15px;
+}
+.show {
+    overflow: hidden;
+}
+.hide {
+    overflow: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
